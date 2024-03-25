@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Perfil";
+}
+
+<h1>Bienvenido a tu perfil</h1>
+
+<div>
+    <!-- Aquí podrías mostrar la información del usuario si lo deseas -->
+    <h1>Bienvenido a tu perfil, @User.Identity.Name</h1>
+</div>
+
+<div>
+    <!-- Aquí podrías mostrar el chat y los mensajes anteriores -->
+    <h2>Chat</h2>
+    <div id="chatMessages">
+        <!-- Aquí se mostrarían los mensajes anteriores -->
+        <!-- Por ahora dejaremos esta área vacía -->
+    </div>
+    <input type="text" id="messageInput" />
+    <button onclick="sendMessage()">Enviar</button>
+</div>
+
+@section scripts {
+    <script src="~/lib/signalr/dist/browser/signalr.min.js"></script>
+    <script>
+        var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+
+        connection.start().then(function () {
+            console.log("Conexión establecida con el servidor SignalR.");
+        }).catch(function (err) {
+            return console.error(err.toString());
+        });
+
+        connection.on("RecibirMensaje", function (usuario, mensaje) {
+            // Mostrar el mensaje recibido en la vista
+            var chatMessages = document.getElementById("chatMessages");
+            var messageElement = document.createElement("div");
+            messageElement.textContent = usuario + ": " + mensaje;
+            chatMessages.appendChild(messageElement);
+        });
+
+        function sendMessage() {
+            var message = document.getElementById("messageInput").value;
+            connection.invoke("EnviarMensaje", "Usuario", message).catch(function (err) {
+                return console.error(err.toString());
+            });
+        }
+    </script>
+}

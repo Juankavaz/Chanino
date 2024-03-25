@@ -1,0 +1,51 @@
+﻿/* Estilos CSS actualizados aquí */
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.input-area {
+    margin-top: 20px;
+}
+
+.input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    color: #333;
+}
+
+.button {
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+    .button:hover {
+        background-color: #0056b3;
+    }
+
+#messagesList {
+    list-style-type: none;
+    padding: 0;
+}
+
+    #messagesList li {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+        #messagesList li strong {
+            color: #007bff;
+        }

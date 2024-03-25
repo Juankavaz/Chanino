@@ -5,10 +5,10 @@ using Chanino.Data;
 
 public class AccountController : Controller
 {
-    private readonly SignInManager<Usuario> _signInManager;
-    private readonly UserManager<Usuario> _userManager;
+    private readonly SignInManager<IdentityUser> _signInManager;
+    private readonly UserManager<IdentityUser> _userManager;
 
-    public AccountController(SignInManager<Usuario> signInManager, UserManager<Usuario> userManager)
+    public AccountController(SignInManager<IdentityUser> signInManager, UserManager<IdentityUser> userManager)
     {
         _signInManager = signInManager;
         _userManager = userManager;
@@ -21,11 +21,11 @@ public class AccountController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Register(LoginViewModel model)
+    public async Task<IActionResult> Register(RegisterViewModel model)
     {
         if (ModelState.IsValid)
         {
-            var user = new Usuario { UserName = model.Email, Email = model.Email };
+            var user = new IdentityUser { UserName = model.Email, Email = model.Email };
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
@@ -51,7 +51,7 @@ public class AccountController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Login(LoginViewModel model, string returnUrl = null)
+    public async Task<IActionResult> Login(RegisterViewModel model, string returnUrl = null)
     {
         returnUrl ??= Url.Content("~/");
 

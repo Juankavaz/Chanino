@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chanino")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94192aefdd0010872eaffeb2c5ecc38a5b6af9b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc246968b569c689baa0033ef89c4fc8685d7671")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chanino")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chanino")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

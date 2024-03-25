@@ -40,16 +40,16 @@ namespace Chanino.Migrations
                     b.Property<DateTime>("FechaEnvio")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("UsuarioId")
+                    b.Property<int>("IdentityUserId")
                         .HasColumnType("int");
 
-                    b.Property<string>("UsuarioId1")
+                    b.Property<string>("IdentityUserId1")
                         .IsRequired()
                         .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UsuarioId1");
+                    b.HasIndex("IdentityUserId1");
 
                     b.ToTable("Mensaje");
                 });
@@ -190,7 +190,7 @@ namespace Chanino.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Usuario", b =>
+            modelBuilder.Entity("IdentityUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("varchar(255)");
@@ -244,10 +244,6 @@ namespace Chanino.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("varchar(256)");
 
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
                     b.HasKey("Id");
 
                     b.HasIndex("NormalizedEmail")
@@ -262,13 +258,13 @@ namespace Chanino.Migrations
 
             modelBuilder.Entity("Mensaje", b =>
                 {
-                    b.HasOne("Usuario", "Usuario")
+                    b.HasOne("IdentityUser", "IdentityUser")
                         .WithMany("Mensajes")
-                        .HasForeignKey("UsuarioId1")
+                        .HasForeignKey("IdentityUserId1")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Usuario");
+                    b.Navigation("IdentityUser");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -282,7 +278,7 @@ namespace Chanino.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Usuario", null)
+                    b.HasOne("IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -291,7 +287,7 @@ namespace Chanino.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Usuario", null)
+                    b.HasOne("IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -306,7 +302,7 @@ namespace Chanino.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Usuario", null)
+                    b.HasOne("IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -315,14 +311,14 @@ namespace Chanino.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Usuario", null)
+                    b.HasOne("IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Usuario", b =>
+            modelBuilder.Entity("IdentityUser", b =>
                 {
                     b.Navigation("Mensajes");
                 });

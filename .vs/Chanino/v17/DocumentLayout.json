@@ -1,0 +1,356 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Develop\\Chanino\\Chanino\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\migrations\\20240325011416_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:migrations\\20240325011416_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\chanino.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:chanino.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\migrations\\20240325011416_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:migrations\\20240325011416_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|c:\\develop\\chanino\\chanino\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B32D5E-48B5-48AA-8A52-4EB4DF4D9013}|Chanino.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mensaje.cs",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Models\\Mensaje.cs",
+              "RelativeDocumentMoniker": "Models\\Mensaje.cs",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Models\\Mensaje.cs",
+              "RelativeToolTip": "Models\\Mensaje.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T02:42:03.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Hubs\\ChatHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T02:27:39.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T01:23:57.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240325011416_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Migrations\\20240325011416_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240325011416_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Migrations\\20240325011416_InitialCreate.Designer.cs",
+              "RelativeToolTip": "Migrations\\20240325011416_InitialCreate.Designer.cs",
+              "ViewState": "AQIAAOYAAAAAAAAAAAAAAPsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T01:24:40.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "jquery.min.js",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+              "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAADnPwEA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-25T02:14:29.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T01:21:23.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chanino.csproj",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Chanino.csproj",
+              "RelativeDocumentMoniker": "Chanino.csproj",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Chanino.csproj",
+              "RelativeToolTip": "Chanino.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-25T01:24:20.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240325011416_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Migrations\\20240325011416_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240325011416_InitialCreate.cs",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Migrations\\20240325011416_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240325011416_InitialCreate.cs",
+              "ViewState": "AQIAAP4AAAAAAAAAAAAqwAsBAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T01:16:14.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T01:06:44.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAAANsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T01:27:01.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAEBVwAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T01:23:50.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T01:24:11.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T02:06:26.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AQIAAPwmAAAAAAAAAAAgwBAnAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-25T02:11:38.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T01:24:23.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T01:46:02.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T01:47:30.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T02:04:33.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-25T01:06:55.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Develop\\Chanino\\Chanino\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Develop\\Chanino\\Chanino\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Controllers\\ChatController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T01:19:52.166Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
 <h1>Bienvenido a tu perfil</h1>
 
 <div>
-    <!-- Aquí podrías mostrar la información del usuario si lo deseas -->
+    <!-- Aquí podrías mostrar la información del IdentityUser si lo deseas -->
     <h1>Bienvenido a tu perfil, @User.Identity.Name</h1>
 </div>
 
@@ -31,17 +31,17 @@
             return console.error(err.toString());
         });
 
-        connection.on("RecibirMensaje", function (usuario, mensaje) {
+        connection.on("RecibirMensaje", function (IdentityUser, mensaje) {
             // Mostrar el mensaje recibido en la vista
             var chatMessages = document.getElementById("chatMessages");
             var messageElement = document.createElement("div");
-            messageElement.textContent = usuario + ": " + mensaje;
+            messageElement.textContent = IdentityUser + ": " + mensaje;
             chatMessages.appendChild(messageElement);
         });
 
         function sendMessage() {
             var message = document.getElementById("messageInput").value;
-            connection.invoke("EnviarMensaje", "Usuario", message).catch(function (err) {
+            connection.invoke("EnviarMensaje", "IdentityUser", message).catch(function (err) {
                 return console.error(err.toString());
             });
         }

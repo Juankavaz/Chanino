@@ -5,9 +5,9 @@ namespace Chanino
 {
     public class ChatHub : Hub
     {
-        public async Task EnviarMensaje(string usuario, string mensaje)
+        public async Task EnviarMensaje(string IdentityUser, string mensaje)
         {
-            await Clients.All.SendAsync("RecibirMensaje", usuario, mensaje);
+            await Clients.All.SendAsync("RecibirMensaje", IdentityUser, mensaje);
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Develop\\Git\\TestApp\\Chanino.csproj": {}
+    "C:\\Develop\\Chanino\\Chanino\\Chanino.csproj": {}
   },
   "projects": {
-    "C:\\Develop\\Git\\TestApp\\Chanino.csproj": {
+    "C:\\Develop\\Chanino\\Chanino\\Chanino.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Develop\\Git\\TestApp\\Chanino.csproj",
+        "projectUniqueName": "C:\\Develop\\Chanino\\Chanino\\Chanino.csproj",
         "projectName": "Chanino",
-        "projectPath": "C:\\Develop\\Git\\TestApp\\Chanino.csproj",
+        "projectPath": "C:\\Develop\\Chanino\\Chanino\\Chanino.csproj",
         "packagesPath": "C:\\Users\\juank\\.nuget\\packages\\",
-        "outputPath": "C:\\Develop\\Git\\TestApp\\obj\\",
+        "outputPath": "C:\\Develop\\Chanino\\Chanino\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juank\\AppData\\Roaming\\NuGet\\NuGet.Config",

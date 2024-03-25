@@ -205,16 +205,16 @@ namespace Chanino.Migrations
                     Contenido = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     FechaEnvio = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    UsuarioId = table.Column<int>(type: "int", nullable: false),
-                    UsuarioId1 = table.Column<string>(type: "varchar(255)", nullable: false)
+                    IdentityUserId = table.Column<int>(type: "int", nullable: false),
+                    IdentityUserId1 = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Mensaje", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Mensaje_AspNetUsers_UsuarioId1",
-                        column: x => x.UsuarioId1,
+                        name: "FK_Mensaje_AspNetUsers_IdentityUserId1",
+                        column: x => x.IdentityUserId1,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -259,9 +259,9 @@ namespace Chanino.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Mensaje_UsuarioId1",
+                name: "IX_Mensaje_IdentityUserId1",
                 table: "Mensaje",
-                column: "UsuarioId1");
+                column: "IdentityUserId1");
         }
 
         /// <inheritdoc />

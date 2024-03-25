@@ -15,14 +15,14 @@ var connectionString = builder.Configuration.GetConnectionString("chicorico") ??
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))); // UseMySql en lugar de UseSqlite
 
-builder.Services.AddIdentity<Usuario, IdentityRole>(options =>
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
     options.SignIn.RequireConfirmedAccount = true;
 })
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
-builder.Services.AddScoped<UserManager<Usuario>>();
+builder.Services.AddScoped<UserManager<IdentityUser>>();
 
 var app = builder.Build();
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zZbaWDQ2/Id4G2mvWpWfPSwk7qzm8W9jJ1cF49JVAa+Em61SgB9fYeHLAL33mlr4g2w6bYTZZQihtqiixlGpdw==",
+  "dgSpecHash": "JulnTC9DQIojmo+dMfk2w2A1PzuOSivhbt0/4lVmisxoRmSlD4w8tzj+bEg//J7e5a7uRzt32TGj4P+jXvX8PA==",
   "success": true,
-  "projectFilePath": "C:\\Develop\\Git\\TestApp\\Chanino.csproj",
+  "projectFilePath": "C:\\Develop\\Chanino\\Chanino\\Chanino.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juank\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\juank\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
